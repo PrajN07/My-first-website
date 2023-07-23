@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Prajwal" />
+    <meta
+      name="Description"
+      content="This page is about me learning how to use HTML and hopefully finally taking life a little bit seriously "
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Feejay</title>
+    <link rel="icon" href="ProfilePIC.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Hello World!</h1>
+
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li><a href="#html">Learning HTML</a></li>
+          <li><a href="#Process">How to Achieve HTML</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <article id="html">
+        <h2>Ready to start Coding my First Website</h2>
+        <p>This is the beginning of something awesome</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/HTML5_Badge_512.png"
+            alt="HTML Icon"
+            title="Time to learn HTML"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>HTML Icon</figcaption>
+            <code>&lt;h1&gt; Hello World! &lt;/h1&gt;</code>
+          </figure>
+        </section>
+        <section>
+          <h3>Not sure what goes here now</h3>
+          <p>This is the beginning of something awesome</p>
+          <hr />
+
+          <h2>Tasks to Achieve</h2>
+          <p>So I plan to finish these tasks:</p>
+          <ol>
+            <li>Getting over laziness</li>
+            <li>Continue working on my grades</li>
+            <li>
+              Get
+              <a href="https://www.geeksforgeeks.org/html/" target="_blank"
+                >studying</a
+              >
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>Guess the number of hours I code in a day</summary>
+              <p>I code for <mark> 8 hours a day every</mark> morning</p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Morning</th>
+                <td>
+                  <time datetime="08:00">8am</time>-<time datetime="11:00"
+                    >11am</time
+                  >
+                </td>
+                <td>Write Code</td>
+              </tr>
+              <tr>
+                <th scope="row">Break</th>
+                <td>
+                  <time datetime="12:00">12pm</time>-<time datetime="14:00"
+                    >2pm</time
+                  >
+                </td>
+                <td>Lunch Break</td>
+              </tr>
+              <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                  <time datetime="14:00">2pm</time>-<time datetime="17:00"
+                    >5pm</time
+                  >
+                </td>
+                <td>Study Other Courses</td>
+              </tr>
+              <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All other time</td>
+                <td>Free Time</td>
+              </tr>
+              <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">This is How I spend My Day</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="Process">
+        <h3>How do I plan on Doing this?</h3>
+        <ul>
+          <li>
+            <p>
+              No clue. All i know is I <em> gotta start and I cant stop</em>
+            </p>
+          </li>
+          <li>
+            <p>location just for practice:</p>
+            <address>
+              #204, CC Residency, KSRTC Layout <br />
+              Chikkalasandra,SBI Road, <br />
+              Bangalore-51, Karnataka
+            </address>
+            <figure>
+              <img
+                src="img/google_building.webp"
+                alt="Google Offices"
+                title="The Place Where Smartest Minds Meet"
+                width="600"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption>Google Headquarters Bangalore</figcaption>
+            </figure>
+          </li>
+        </ul>
+
+        <hr />
+        <h2>Distractions to Avoid:</h2>
+        <dl>
+          <dt>Video Games</dt>
+          <dd>Lose too much time playing them</dd>
+
+          <dt>Movies</dt>
+          <dd>Also lose alot of time watching them</dd>
+
+          <dt>Social Media</dt>
+          <dd>Lose sense of time</dd>
+        </dl>
+        <figure>
+          <img
+            src="img/desk-coding.webp"
+            alt="Gaming Setup"
+            title="Stop playing video games"
+            width="600"
+            height="400"
+            loading="lazy"
+          />
+          <figcaption>Gaming Setup with Dual Monitors</figcaption>
+        </figure>
+      </article>
+      <hr>
+      <article id="Contact"> 
+       <h2>Contact Me</h2>
+       <p>I would like to hear from you</p>
+       <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Personal Info</legend>
+        <p>
+        <label for="firstName">First Name:</label>
+         <input type="text" name="firstName" id="firstName" placeholder="Type here" autocomplete="on" required autofocus>
+        </p>
+        <p>
+        <label for="lastName">Last Name:</label>
+         <input type="text" name="lastName" id="lastName" placeholder="Type here" autocomplete="on" required>
+        </p>
+        <p>
+        <label for="password">Password:</label>
+         <input type="password" name="password" id="password" placeholder="Type here" required>
+        </p>
+        <p>
+        <label for="phone">Phone:</label>
+         <input type="tel" name="phone" id="phone" placeholder="99999999" pattern="[0-9]{10}" required>
+        </p>
+        <p>
+        <label for="decade">Year of Birth:</label>
+         <input type="number" name="decade" id="decade" min="1950" max="2022" step="1" value="1980"> 
+        </p>
+         <p>
+          <label for="coffee">Favourite Coffee:</label>
+          <select name="coffee" id="coffee">
+            <optgroup label="Coffees">
+            <option value="regular coffee">Regular Coffee</option>
+            <option value="iced coffee">Iced Coffee</option>
+          </optgroup>
+          <optgroup label="Espresso and Tea">
+            <option value="tea">Tea</option>
+            <option value="americano">Americano</option>
+            <option value="iced tea">Iced Tea</option>
+          </optgroup>
+            <option value="others">Others</option>
+
+          </select>
+         </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>What is Your Favourite Food?</legend>
+          
+            <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="burger" value="burger">
+            <label for="burger">Burger</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="pasta" value="pasta">
+            <label for="pasta">Pasta</label>
+          </p>
+          
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Do you Have Pets?</legend>
+          <p>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="Fish" value="Fish">
+            <label for="Fish">Fish</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="Hamster" value="Hamster">
+            <label for="Hamster">Hamster</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Send me a Note</legend>
+          <p>
+            <label for="message">Your Message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+          </p>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+       </form>
+      </article>
+    </main>
+
+    <hr />
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy;<a href="about.html">Prajwal Nagendranath</a>
+        &gt;&gt;&gt;
+      </p>
+      <p><a href="#">Back to Top</a></p>
+    </footer>
+  </body>
+</html>
